@@ -1,0 +1,67 @@
+/* Demonstrate the use of font manipulation and Box model */
+
+/* box around paragraph */
+p {
+	/* Content */
+	width: 75%;
+	border: 2px solid blue;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+	/* margin: top right bottom left; */
+	margin: 80px auto 25px auto;
+	/*margin-top: 120px;
+	margin-left: 35px;
+	margin-right: 35px;*/
+}
+
+/* font-family */
+p {
+	font-family: "Arial";
+}
+
+h1 {
+	font-family: "Mr De Haviland";
+}
+
+/* font-size */
+body {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 5.5em;
+}
+
+p {
+	font-size: 2.5em;
+}
+
+span {
+	font-size: 2.0em;
+}
+
+/* font-weigth */
+p {
+	font-weight: normal;
+}
+
+/* line-height */
+p {
+	line-height: 1.5;
+}
+
+/* text-align */
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+/* text-decoration */
+p {
+	/*text-decoration: underline;*/
+}
